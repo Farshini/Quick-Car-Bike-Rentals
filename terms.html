@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quick Car & Bike Rentals</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+    
+    <nav>
+      <div class="nav__header" style="background-color: white">
+        <div class="nav__logo" style="background-color: white">
+          <a href="#">
+            <svg width="100" height="29" viewBox="0 0 100 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50.1901 28.8378H44.6397L44.635 25.8762H44.5601C44.3346 26.2579 44.0696 26.6149 43.7695 26.9413C43.4254 27.3144 43.0285 27.6349 42.5913 27.8927C42.0947 28.1869 41.5628 28.417 41.0084 28.5776C40.3817 28.7595 39.7319 28.8491 39.0794 28.8436C37.6112 28.8436 36.4208 28.6219 35.5083 28.1786C34.5958 27.7353 33.888 27.1198 33.385 26.3323C32.8834 25.5469 32.549 24.6218 32.3818 23.5571C32.2079 22.4112 32.1237 21.2534 32.1299 20.0944V9.89429H37.9206V18.9529C37.9206 19.4856 37.9396 20.0375 37.9777 20.6086C38.0101 21.1499 38.1276 21.6826 38.3259 22.1873C38.5075 22.6546 38.8147 23.0627 39.2134 23.3665C39.6124 23.6713 40.1858 23.8233 40.9335 23.8226C41.6813 23.8219 42.286 23.6889 42.7479 23.4236C43.1958 23.1753 43.5648 22.806 43.8129 22.358C44.0653 21.891 44.2292 21.3813 44.2962 20.8547C44.3748 20.2749 44.4135 19.6904 44.4119 19.1053V9.89691H50.2021C50.198 16.2107 50.1939 22.5244 50.1901 28.8378Z" fill="#00B150"/>
+              <path d="M53.4575 9.93347H59.2482V28.8273H53.4575V9.93347Z" fill="#00B150"/>
+              <path d="M74.6793 16.2206C74.373 15.8011 73.9687 15.4629 73.5016 15.2357C72.9967 14.9762 72.4367 14.8424 71.869 14.8456C70.4266 14.8456 69.3066 15.2668 68.5089 16.1091C67.7113 16.9514 67.3126 18.0538 67.313 19.4163C67.313 20.7777 67.7116 21.8805 68.5089 22.7245C69.3062 23.5686 70.4263 23.9896 71.869 23.9875C72.5015 23.9875 73.0457 23.8512 73.5016 23.5786C73.9418 23.3194 74.3391 22.9935 74.6793 22.6125L78.4394 26.4768C77.5716 27.3596 76.4932 28.0069 75.306 28.3576C74.1924 28.7024 73.0347 28.8839 71.869 28.8964C70.5052 28.9053 69.1502 28.6789 67.8633 28.2272C66.6596 27.8103 65.5499 27.1604 64.5975 26.3145C63.6697 25.48 62.9262 24.4611 62.4145 23.323C61.8825 22.1581 61.6169 20.8562 61.6176 19.4173C61.6183 17.9784 61.8839 16.6764 62.4145 15.5111C62.9264 14.3731 63.6698 13.3543 64.5975 12.5197C65.55 11.674 66.6597 11.024 67.8633 10.6069C69.1502 10.1555 70.5053 9.92925 71.869 9.93825C73.0348 9.95018 74.1926 10.1319 75.306 10.4776C76.4926 10.827 77.5709 11.4724 78.4394 12.3532L74.6793 16.2206Z" fill="#00B150"/>
+              <path d="M80.3789 0.00732422H86.1696V17.624L92.9055 9.92155H100L92.2269 18.6545L99.8717 28.8352H92.5761L86.2455 19.4551H86.1686V28.8342H80.3789V0.00732422Z" fill="#00B150"/>
+              <path d="M59.3294 3.90511L53.4915 0.564941V7.24476L59.3294 3.90511Z" fill="#DD2427"/>
+              <path d="M32.6059 28.8273C25.1704 28.8629 19.1352 28.81 14.8195 28.8032C13.7288 28.8032 11.5207 28.7686 8.89631 27.8314C7.08459 27.1831 5.52088 26.2375 4.2052 24.9944C2.87132 23.7191 1.81977 22.1783 1.11845 20.4714C0.372818 18.6994 0 16.6762 0 14.4016C0 12.2854 0.379276 10.3412 1.13783 8.56895C1.8515 6.85757 2.9051 5.30884 4.23483 4.01656C5.56455 2.72428 7.14273 1.71533 8.8738 1.05081C10.6926 0.342369 12.6294 -0.0140813 14.5813 0.000425629C16.6129 0.000425629 18.5163 0.357358 20.2913 1.07123C22.0155 1.75162 23.5895 2.76349 24.9243 4.04958C26.252 5.34242 27.3078 6.88773 28.0294 8.59461C28.7869 10.3512 29.1657 12.2886 29.1657 14.4068C29.1673 15.3945 29.0575 16.3791 28.8384 17.3422C28.625 18.2781 28.2952 19.1835 27.8566 20.0373C27.4187 20.8852 26.8451 21.6559 26.1585 22.3187C25.4497 23.0039 24.6275 23.5611 23.7284 23.9655V24.0445L29.4505 24.1121C30.5023 25.684 31.5541 27.2557 32.6059 28.8273ZM6.90551 17.9454C7.32082 18.9776 7.92994 19.9207 8.69995 20.7237C9.45412 21.5065 10.3514 22.1373 11.3432 22.5821C12.3646 23.0306 13.468 23.2622 14.5836 23.2622C15.6992 23.2622 16.8026 23.0306 17.824 22.5821C18.8163 22.1373 19.7141 21.5065 20.4688 20.7237C23.7472 17.3003 23.7546 11.7426 20.4851 8.31028L20.4688 8.293C19.7138 7.51055 18.8161 6.87977 17.824 6.43467C16.8024 5.98686 15.6991 5.75566 14.5836 5.75566C13.4682 5.75566 12.3648 5.98686 11.3432 6.43467C10.3516 6.8798 9.4544 7.51059 8.69995 8.293C6.29339 10.8352 5.58546 14.644 6.90551 17.9454Z" fill="#00B150"/>
+              </svg>
+          </a>
+        </div>
+        <div class="nav__menu__btn" style="color: #00B150;" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="nav__links__btn">
+            <!-- <button class="btn">Sign Up</button> -->
+          </li>
+          <li class="nav__links__btn">
+            <!-- <button class="btn">Sign In</button> -->
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <!-- <button class="btn btn__primary">Sign Up</button>
+          <button class="btn btn__secondary">Sign In</button> -->
+        </div>
+      </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
+          <div class="col-md-9 ftco-animate pb-5">
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ri-arrow-right-line"></i></a></span> <span>Terms and Conditions</span></p>
+            <h1 class="mb-3 bread">Terms and Conditions</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+<section>
+    <main class="terms__container">
+      <div class="terms__card">
+        <h1>Terms & Conditions</h1>
+        <p>Customer terms of service for QUICK</p>
+        <p>
+          Besides Terms & Conditions on this page, there are other documents
+          that form part of our contract with you such as Privacy Policy.
+        </p>
+        <p>
+          By agreeing to our Terms, you're agreeing to everything in all
+          documents.
+        </p>
+        <p>
+          When you complete your booking, you accept these Terms and any other
+          terms that you're provided with during the booking process.
+        </p>
+
+        <h2>A1. Definitions</h2>
+        <p>
+          ‘QUICK’ is a vehicle rental platform. QUICK is only a platform for
+          booking/renting and not responsible for any travel experiences.
+        </p>
+        <p>
+          ‘Platform’ refers to QUICK’s platform that offers VEHICLE RENTAL
+          SERVICE from several Service providers.
+        </p>
+        <p>
+          ‘Service Provider’ is a local company or service provider that agrees
+          to provide service on QUICK platform.
+        </p>
+        <p>
+          ‘Customer’, ‘Client’ and ‘End User’ refers to a person or company to
+          book or rent vehicles through QUICK platform.
+        </p>
+
+        <h2>A2. About these terms</h2>
+        <p>
+          When you complete your booking, you accept these Terms and any other
+          terms that you're provided with during the booking process.
+        </p>
+        <p>
+          If any authority decides that some of these terms are unlawful, the
+          rest of the terms will continue to apply.
+        </p>
+        <p>These Terms are laid out as follows:</p>
+        <ul>
+          <li>Section A: General terms - about our Platform.</li>
+          <li>Section B: Rental car terms - about your Rental.</li>
+        </ul>
+        <p>
+          If there's any mismatch between A and B, the Rental car terms will
+          apply.
+        </p>
+        <p>
+          The English version of these Terms is the original. If there's any
+          dispute about the Terms, or any mismatch between the Terms in English
+          and in another language, the Terms as they appear in English will
+          apply, unless local law requires otherwise.
+        </p>
+
+        <h2>A3. About QUICK</h2>
+        <p>
+          QUICK provides and is responsible for the Platform - but not the
+          Travel Experience itself.
+        </p>
+        <p>
+          We are the platform that gathers vehicle rental companies in Thailand
+          and Worldwide on our platform to offer an easy way for you to compare
+          bookings and rent out the vehicle. The information on our Platform is
+          based on what Service Providers tell us.
+        </p>
+        <p>
+          Our search results page tells you how many car rental companies might
+          be right for you, based on what you’ve told us. When you book your
+          car, you agree and enter into a contract with us: we’re agreeing to
+          arrange and manage your booking.
+        </p>
+        <p>
+          When you sign your Rental Agreement at the counter, you enter into a
+          contract with the rental company: they’re agreeing to provide the car.
+        </p>
+        <p>
+            .We’re here to try to help you if you need to change or cancel your Booking, or if you have any questions – before, during or after your Rental.
+        </p>
+        <p>
+            We make money when we find you your Rental. There are two ways we do this:
+we agree a commission with the rental company for our services; or
+we agree the net rate with the rental company and apply our own mark-up.
+Either way, we offer our customers a lot of choice at competitive prices.
+        </p>
+        <p>
+            Plus, our Platform is free for you to use
+Every rental company on our Platform is a partner, who passed all our conditions before we started working with them.
+        </p>
+        <p>
+            Only Service Providers that have a contractual relationship with us will be displayed on our Platform. However, they may offer Travel Experiences outside our Platform as well (so what they offer on our Platform may not be exhaustive).
+        </p>
+        <p>
+            Review: After your Rental, you’ll be asked to leave a review, which may then be:
+uploaded to our Platform to help other customers make the right choice for them*
+used for marketing purposes (on our Platform, on social media, in newsletters, etc.)*
+shared with your rental company to help them (and us) provide an even better service**.
+        </p>
+        <p>
+            We publish every consumer review we receive, whether positive or negative, unless it breaches our Content Standards and Guidelines. When there are multiple reviews, we’ll show the most recent ones at the top. Please note that on our app, we only show scores and not comments. * We wouldn’t use your full name or your address. ** To help the rental company improve, we would need to tell them which Rental the review is about.
+        </p>
+        <p>
+            Prices: The rates displayed on our Platform are set by the Service Providers or by us - but we may finance rewards or other benefits out of our own pocket.
+When you make a Booking, you agree to pay the cost of the Travel Experience itself and any other charges that may apply (e.g. for any extras, insurance or taxes). Taxes and fees may vary for different reasons, such as the Service Provider’s location, the pick-up location or what you’re planning to do with your Rental. Any currency conversion is for information purposes only; actual rates may vary.
+        </p>
+<p>
+    We work with companies that provide local support services (e.g. Customer Support or account management). They don't:
+control or manage our Platform
+have any legal or contractual relationship with you
+provide Travel Experiences
+represent us, or enter into contract or accept legal documents in our name
+operate as our 'process or service agents'..
+</p>
+        <h2>A4. Our Platform</h2>
+        <p>
+          We get information from Service Providers, and we could not guarantee
+          that everything is accurate - but when providing our Platform, we take
+          reasonable care and act with professional diligence.
+        </p>
+        <p>
+          Unless we've failed to do so, or have been negligent, we can't be held
+          responsible for any errors, interruptions, or missing bits of
+          information. However, we'll do everything we can to correct/fix them
+          as soon as we become aware of them.
+        </p>
+        <p>
+            We're always working to improve our customers' experience with QUICK. So sometimes, we show different people different designs, phrasings, products, etc. to find out how they react. As a result, you might not come across some services or conditions when you visit our Platform.
+        </p>
+<p>
+    We're not a party to the terms between you and the Service Provider. The Service Provider is responsible for the Travel Experience.
+We will show you the offers that are available to you.
+You need to be at least 18 to use the Platform.
+</p>
+        <h2>A5. Our Values</h2>
+        <p>
+          You will: abide by Our values - Integrity, Responsibility, Respect,
+          Community and Nurture comply with all applicable laws cooperate with
+          any anti-fraud/anti-money laundering checks we need to carry out not
+          use the Platform to cause a nuisance or make fake Bookings use the
+          Travel Experience and/or Platform for their intended purpose not cause
+          any nuisance or damage, and not behave inappropriately to the Service
+          Provider's personnel (or anyone else, for that matter).
+        </p>
+        <h2>A6. Our Prices</h2>
+        <p>
+          When you make a booking, you agree to pay the cost of the Travel
+          Experience, including any charges and taxes that may apply.
+        </p>
+        <p>
+          Obvious errors and obvious misprints are not binding. For example: if
+          you book a premium car that was mistakenly offered for 1 THB or
+          others, your booking may be cancelled and we'll refund anything you've
+          paid.
+        </p>
+
+        <h2>A7. Payment</h2>
+        <p>
+          If we organise your payment, we (or, in some cases, our affiliate)
+          will be responsible for managing your payment and ensuring the
+          completion of your transaction with our Service Provider. In this
+          case, your payment constitutes final settlement of the 'due and
+          payable' price.
+        </p>
+        <p>
+          If the Service Provider charges you, this will usually be in person at
+          the start of your Travel Experience.
+        </p>
+        <p>
+          For a security deposit part, it will be on the Service provider’s
+          responsibility. QUICK will not involve and cover this part. (Unless we
+          change our policy in the future).
+        </p>
+<p>
+    This does not affect your rights if you have any problems with your Travel Experience - please refer to 'What if something goes wrong?'(A13).
+If you know of or suspect any fraudulent behaviour or unauthorised use of your Payment Method, please contact your payment provider as soon as possible.
+</p>
+        <h2>A8. Policies</h2>
+        <p>
+          When you make a Booking, you accept the applicable policies as
+          displayed in the booking process. You'll find each Service Provider's
+          cancellation policy and any other policies (about age requirements,
+          security/damage deposits, pets etc.) on the Service Provider’s
+          contract with customer and on our Platform.
+        </p>
+        <p>
+          If you cancel a Booking or don't show up, any cancellation/no-show fee
+          and any refund will depend on the cancellation/no-show policy.
+        </p>
+<p>
+    Some Bookings can't be cancelled for free, while others can only be cancelled for free before a deadline.
+</p>
+<p>
+    If you think you're not going to arrive on time, please contact your Service Provider and tell them when they can expect you. It's your responsibility to ensure you're on time – and if you aren't, we are not responsible for any associated costs (e.g. the cancellation of your Booking, or any fees the Service Provider may charge).
+</p>
+<p>
+    As the person making the Booking, you are responsible for the actions and behaviour (in relation to the Travel Experience) of everyone in the group. You are also responsible for obtaining their permission before providing us with their personal data.
+</p>
+        <h2>A9. Privacy and Cookies</h2>
+        <p>
+          Please see the QUICK’s Privacy and Cookies Statement to find out how
+          we process your personal data.
+        </p>
+
+        <h2>A10. Accessibility requests</h2>
+        <p>If you have any accessibility requests:</p>
+        <ul>
+          <li>
+            about our Platform and/or services, please contact our Customer
+            Service team
+          </li>
+          <li>
+            about your Travel Experience (for example, about wheelchair access),
+            please contact your Service Provider.
+          </li>
+        </ul>
+
+        <h2>A11. Insurance</h2>
+        <p>
+          If you have bought insurance through our Platform, please refer to the
+          policy document(s) for the terms and for further information. These
+          Terms do not apply to insurance.
+        </p>
+
+        <h2>A12. Intellectual property rights</h2>
+        <p>
+          Unless otherwise stated, all rights in our Platform (technology,
+          content, trademarks, look & feel, etc.) are owned by QUICK. (or its
+          licensors) and by using our Platform you agree to do so for its
+          intended purpose only and respecting the requirements set out below in
+          paragraphs A12.2 and A12.3.
+        </p>
+        <p>
+          You're not allowed to monitor, copy, scrape/crawl, download, reproduce
+          or otherwise use anything on our Platform for any commercial purpose
+          without written permission of QUICK or its licensors.
+        </p>
+        <p>
+            We keep a close eye on every visit to our Platform, and we'll block anyone (and any automated system) we suspect of:
+        </p>
+        <ul>
+            <li>conducting an unreasonable amount of searches
+                using any device or software to gather prices or other information
+                doing anything that places undue stress on our Platform.</li>
+        </ul>
+        <p>
+            By uploading a review to our Platform, you're confirming that it meets our Content Standards and Guidelines and that:
+        </p>
+        <ul>
+            <li>The content is  truthful
+                it does not contain any viruses
+                you're allowed to share it with us</li>
+                <li>you own (or are allowed to use) any intellectual property rights that it contains
+                    we're allowed to use it on our Platform and for any other commercial purposes (including marketing and advertising), on any media, worldwide – unless you ask us to stop using it</li>
+        <li>it doesn't infringe the privacy rights of other people
+            you accept full responsibility for any legal claims against Booking.com Transport Limited related to it.</li>
+                </ul>
+
+        <h2>A13. What if something goes wrong?</h2>
+        <p>
+          If you have a query or complaint, please contact our Customer Service
+          team. You can do this by accessing your Booking, or through our app.
+          You can help us help you as quickly as possible - by providing:
+        </p>
+        <ul>
+          <li>
+            your Booking confirmation number, your contact details, your PIN
+            code (if you have one) and the email address you used when you made
+            your Booking
+          </li>
+          <li>
+            a summary of the issue, including how you'd like us to help you
+          </li>
+          <li>
+            any supporting documents (bank statement, pictures, receipts, etc.)
+          </li>
+        </ul>
+<p>All queries and complaints are recorded, and the most urgent ones are treated as highest priority.</p>
+<p>We do try to resolve disputes with you directly, and we're not obliged to submit to any alternative dispute resolution procedures handled by independent providers.</p>
+        <h2>A14. Communication with the Service Provider</h2>
+        <p>
+          We may help you communicate with your Service Provider, but that
+          doesn't mean we're taking responsibility for the Travel Experience or
+          anything the Service Provider does/doesn't do. We can't guarantee that
+          they will read anything from you or that they'll do what you ask. In
+          itself, the fact that you contact them or they contact you doesn't
+          mean you have any grounds for legal action. If you need help, please
+          contact us via our Help Centre.
+        </p>
+
+        <h2>A15. Measures against unacceptable behaviour</h2>
+        <p>
+          If you breach these Terms (including our values and our Content
+          Standards and Guidelines) or fail to comply with applicable laws or
+          regulations, we have the right to:
+        </p>
+        <ul>
+          <li>stop you making any bookings,</li>
+          <li>cancel any Bookings you’ve already made</li>
+          <li>stop you using:</li>
+          <ul>
+            <li>our Customer Service</li>
+            <li>our Platform,</li>
+          </ul>
+        </ul>
+<p>If we cancel a Booking as a result, you may not (depending on the circumstances) be entitled to a refund. We may tell you why we've cancelled your Booking, unless telling you would (a) contravene applicable laws and/or (b) prevent or obstruct the detection or prevention of fraud or other illegal activities. If you believe we have incorrectly cancelled your Booking, please contact our Customer Service team.</p>
+        <h2>A16. Limitation of liability</h2>
+        <p>
+          Nothing in these Terms will limit our (or the Service Provider’s)
+          liability (i) when we (or they) were negligent and this led to death
+          or personal injury; (ii) in case of fraud or fraudulent
+          misrepresentation; (iii) in respect of gross negligence or wilful
+          misconduct; or (iv) if such liability can otherwise not lawfully be
+          limited or excluded.
+        </p>
+        <p>
+          If you are in breach of these Terms and/or the Service Provider’s
+          terms, we won’t be liable for any costs you incur as a result.
+        </p>
+        <p>We are not liable for:</p>
+        <ul>
+            <li>any losses or damages which were not reasonably foreseeable when you made your Booking or otherwise entered into these Terms; or
+                any event which was reasonably beyond our control.</li>
+                <li>We don’t make any promises about Service Providers’ products and services apart from what we expressly state in these Terms, for example in Section A4.</li>
+                <li>To the extent permitted by law, the most that we, (or any Service Provider) will be liable for (whether for one event or a series of connected events) is your reasonably foreseeable losses or damages in connection to your Booking(s).</li>
+
+        </ul>
+<p>Just to be clear, these Terms are between you and us:</p>
+<ul>
+    <li>Nothing in these Terms will entitle any third party other than the Service Provider to anything.</li>
+    <li>You may be protected by mandatory consumer protection laws and regulations, which guarantee you rights that no company’s terms can overrule.</li>
+    <li>If there is any inconsistency between those laws and regulations and these Terms, such mandatory consumer protection laws and regulations will override.</li>
+</ul>
+        <h2>A17. Modification clause</h2>
+        <p>
+          We may make changes to these Terms. Where such changes are material,
+          we will inform you in advance of such changes becoming effective,
+          unless the changes are required by applicable law.
+        </p>
+        <p>If you do not accept the changes, please do not use our Platform.</p>
+        <p>
+          Otherwise, your continued use of our Platform after the effective date
+          of the proposed changes will constitute your acceptance of the revised
+          Terms.
+        </p>
+        <p>
+          Any existing Bookings will continue to be governed by the Terms that
+          applied when the Booking was made.
+        </p>
+
+        <h2>B. Rental car terms</h2>
+        <h2>B1. Contractual relationship</h2>
+        <p>
+          This Platform is operated by QUICK. The company is registered in
+          Thailand. This means that you accept that the process of making a
+          Booking with QUICK is governed by these Terms - although your actual
+          Rental will be governed by the Rental Agreement with
+        </p>
+        <p>
+          When you book a Rental, your Booking is either (a) with us or (b)
+          directly with the Service Provider (the rental company that provides
+          the car). Either way:
+        </p>
+        <ul>
+          <li>
+            Our Terms govern the booking process; when we send you your Booking
+            Confirmation, you'll enter a contract with us
+          </li>
+          <li>
+            The Rental Agreement governs the Rental itself; when you sign this
+            at the rental counter, you'll enter a contract with the Service
+            Provider.
+          </li>
+        </ul>
+        <p>
+          If there's any mismatch between these Terms and the Rental Agreement,
+          the Rental Agreement will apply.
+        </p>
+        <p>
+          The Main Driver (the person whose details are entered during the
+          booking process) is the only person who can change or cancel the
+          Booking, or discuss it with us - unless they tell us they nominate
+          someone else to do.
+        </p>
+
+        <h2>B2. What we will do</h2>
+        <p>
+          QUICK provides the Platform on which Service Providers can promote and
+          sell their Travel Experiences - and you can search for, compare and
+          book them.
+        </p>
+        <p>
+          QUICK doesn’t guarantee the precise make and model you're booking
+          (unless we expressly say so). The phrase 'or similar' means you could
+          get a similar car (i.e. the same size, with the same kind of gearbox,
+          etc.). The car pictures are illustrative only.
+        </p>
+        <p>Once you've booked your Rental:</p>
+        <ul>
+          <li>
+            we'll give the Service Provider the Booking details (e.g. the Main
+            Driver's name and contact phone number)
+          </li>
+          <li>
+            we'll confirm the Pick-up information (e.g. the Service Provider's
+            contact details, and what you need to take with you).
+          </li>
+        </ul>
+
+        <h2>B3. What you need to do</h2>
+        <p>
+          You as a customer must provide all the information we need to arrange
+          your Booking (contact details, Pick-up Time, etc.).
+        </p>
+        <p>
+          You must read and agree to comply with these Terms and the Rental
+          Agreement - and acknowledge that if you breach them:
+        </p>
+        <ul>
+          <li>you might have to pay additional charges</li>
+          <li>your Booking might be cancelled</li>
+          <li>
+            the counter staff might refuse to hand over the keys at the rental
+            counter.
+          </li>
+        </ul>
+        <p>
+          You must check your Rental's specific requirements, as many details
+          (driving licence requirements, security deposit size, paperwork
+          needed, payment cards accepted, etc.) vary per Rental. So please make
+          sure you carefully read:
+        </p>
+        <ul>
+          <li>these Terms</li>
+          <li>
+            the key terms of the Rental Agreement, which you'll see while you're
+            booking, and
+          </li>
+          <li>the Rental Agreement itself, which you'll receive at Pick-up.</li>
+        </ul>
+        <p>
+          You must be at the rental counter by your Pick-up Time (note that some
+          Service Providers have a pick-up 'grace period' in case you are
+          delayed). If you arrive after the Pick-up Time (and after the pick-up
+          grace period, if any), the car may no longer be available, and you may
+          not be entitled to a refund from the Service Provider. Please check
+          the Rental Agreement for further information (while you're booking
+          your car, please check 'Important The key terms of your Rental tell you what the Main Driver needs at Pick-up.
+           You must ensure that when they get to the rental counter, they bring everything they need (e.g. driving licence, any required ID, and a credit card in their own name, with enough available funds to cover the security deposit)).
+        </p>
+<p>You must make sure the Main Driver is both eligible and fit to drive the car.
+    You must show the counter staff each driver's full, valid driving license, which they must have held for at least 1 year (or longer, in many cases). If any driver has endorsements/points on their license, let us know as soon as you are aware of this, as the Service Provider may not allow them to drive.</p>
+      <p>You must ensure that any driver with a driving license that does not expire.
+        You must ensure that every driver has their own International Driving Permit (if they need one) as well as their driving license.</p>  
+        <p>Note that all drivers must carry their driving license (and International Driving Permit, if they need one) at all times.
+            You must ensure that every child has an appropriate child seat if they need one.</p>
+            <p>You must, if anything goes wrong during your Rental (accident, breakdown, etc.):</p>
+            <ul>
+                <li>contact the Service Provider
+                    not authorise any repairs without the Service Provider's consent (unless the Rental Agreement allows this)</li>
+                    <li>keep all documentation (repair bills, police reports, etc.) to share with us / the Service Provider / an insurance company.</li>
+            </ul>
+    <h2>B4. Price and payment</h2>
+        <p>Additional costs and fees</p>
+        <p>
+          In many cases, the Service Provider will charge a young driver fee for
+          each driver under a certain age (e.g. 18). In some cases, they may
+          charge a senior driver fee for each driver over a certain age (e.g.
+          65). When booking on our Platform, you must enter the Main Driver's
+          age, so we can show you details of any age-related fee(s) - which you
+          would pay at Pick-up.
+        </p>
+        <p>
+          In many cases, the Service Provider will charge a one-way fee if you
+          drop the car off at a different location. If you intend to do this,
+          you need to enter the drop-off location while booking, so we can tell
+          you if it's possible, and show you details of any one-way fee - which
+          you would pay at Pick-up.
+        </p>
+        <p>
+          In many cases, the Service Provider will charge a cross-border fee for
+          taking the car to a different country/state/island. If you intend to do this, it's vital you tell us and/or the Service Provider as soon as you can (it must be before Pick-up).
+        </p>
+        <p>The price of your Rental is calculated based on 24-hour units, so (e.g.) a 25-hour Rental will cost as much as a 48-hour Rental.
+        </p>
+        <p>If, after Pick-up, you decide you want to keep the car for longer, please contact the Service Provider. They'll tell you how much this would cost, and you'll enter a new contract with them. If you drop the car off late without agreeing this in advance, they may charge an additional fee as well.
+        </p>
+        <h2>Extras</h2>
+        <p>1. In some cases, you'll pay for any optional extras (child seats, GPS, winter tyres, etc.) when you book your car - in which case, you're guaranteed to get them at Pick-up.</p>
+     <p>2. In other cases, you'll merely request any extras when you book your car - in which case:
+    </p>
+    <ul>
+      <li>you'll pay for them at Pick-up, and</li>
+      <li>the Service Provider doesn't guarantee they'll be available for you.</li>
+    </ul>
+    <h2>B5.  Amendments, cancellations and refunds</h2>
+    <p>The following 'Cancellation and Amendments' terms apply to all Bookings apart from Bookings that are labelled 'non-refundable' (you cannot amend a non-refundable Booking, and you won't receive a refund if you cancel it).
+    </p>
+    <h2>Cancellations</h2>
+    <p>
+      <span style="color: red;"> 1. For a current phase, cancellation is not allowed and the booking cannot be refunded.
+     *This cancellation policy may be updated or revised in the future. At QUICK, we are committed to providing our valued customers with the best possible experience and will continue to improve our policies to meet your needs.</span>
+  </p>
+  <p>2. The counter staff may refuse you the car if (for example):</p>
+  <ul>
+    <li>You don't arrive on time
+    </li>
+    <li>You are not eligible to rent the car
+    </li>
+    <li>You don't have the documentation you need</li>
+    <li>The main driver doesn't have a credit card in their own name, with enough available funds for the car's security deposit.
+    </li>
+  </ul>
+  <p>For more on your Service Provider's rules, please refer to the 'Important Information' that's available while booking - or the Rental Agreement that you sign at the counter.
+  </p>
+  <p>If they refuse you the car, please call us straight away from the rental counter to cancel your Booking. </p>
+  <h2>Amendments (changes to your Booking)</h2>
+  <p>1. Currently you could make any changes to your booking on your own. You may need to contact QUICK to do so. However, In the future we will improve our system to allow you to make changes to your Booking anytime before you're due to pick the car up.
+  </p>
+  <p>2. There is no administration fee for changing your Booking, but any changes you make may affect the rental price. Sometimes, the only way we can change a Booking is to cancel it and make another one, in which case we may charge you a cancellation fee on the rental company's behalf.</p>
+    <p>3. If changing your Booking would change the price or incur a cancellation fee, we will tell you in advance.</p>  
+    <h2>Changes made by us
+    </h2>
+    <p>If we/the Service Provider need to change your Booking (e.g. if the Service Provider can't provide the car), we'll tell you as soon as we can. If you don't accept that change, you'll be entitled to cancel and claim a full refund (no matter how close the start of your Rental is) but we will have no additional liability for any direct or indirect costs you may incur (e.g. hotel rooms or taxis).
+    </p>
+    <h2>B6. What else do you need to know?</h2>
+    <h2>General
+    </h2>
+    <ul>
+      <li>1. In all cases, drivers must be at least a minimum age to rent or drive a car. In some cases, they must also be below a maximum age. The limit(s) can vary by Service Provider, by location and by type of car.</li>
+      <li>2. Only eligible drivers whose names appear on the Rental Agreement may drive the car.
+      </li>
+      <li>You must not take the car to a different country/state/island and/or drop it off at a different location without arranging this in advance.</li>
+    </ul>
+   <h2>Late Pick-up/early drop-off
+  </h2>
+  <p>1. If you pick your car up later (please see B3.4 above) or drop it off earlier than agreed in your Booking Confirmation, the Service Provider will not refund you for the 'unused' time.
+  </p>
+</div>
+    </main>
+</section>
+    <section
+      class="section__container contact__container"
+      id="contact"
+      style="padding: 20px; text-align: center"
+    >
+      <div
+        class="contact__background"
+        style="background-color: #f9f9f9; padding: 20px; border-radius: 8px"
+      >
+        <div class="contact__overlay">
+          <p class="section__subheader" style="font-size: 1.2em; margin: 0">
+            GET IN TOUCH
+          </p>
+          <h2 class="section__header" style="font-size: 2em; margin: 10px 0">
+            Contact Us
+          </h2>
+          <div
+            class="contact__details"
+            style="display: flex; flex-direction: column; align-items: center"
+          >
+            <div
+              class="contact__card"
+              style="
+                margin: 10px 0;
+                text-align: left;
+                width: 100%;
+                max-width: 400px;
+              "
+            >
+              <img
+                src="assets/email.jpg"
+                alt="Email Icon"
+                class="contact__icon"
+                style="width: 40px; height: 40px; margin-bottom: 10px"
+              />
+              <h5 style="margin: 0">Email</h5>
+              <h3 style="margin: 0">support@quick-rentals.com</h3>
+            </div>
+            <!-- <div class="contact__card" style="margin: 10px 0; text-align: left; width: 100%; max-width: 400px;">
+                            <img src="assets/phone.jpg" alt="Phone Icon" class="contact__icon" style="width: 40px; height: 40px; margin-bottom: 10px;" />
+                            <h5 style="margin: 0;">Phone</h5>
+                            <h3 style="margin: 0;">+919546532123</h3>
+                        </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h4>Quick Rentals</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="policy.html">Privacy and Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section__container footer__bar">
+        <!-- <h4>RentalX</h4> -->
+        <h4>
+          <a href="#">
+            <svg
+              width="100"
+              height="29"
+              viewBox="0 0 100 29"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M50.1901 28.8378H44.6397L44.635 25.8762H44.5601C44.3346 26.2579 44.0696 26.6149 43.7695 26.9413C43.4254 27.3144 43.0285 27.6349 42.5913 27.8927C42.0947 28.1869 41.5628 28.417 41.0084 28.5776C40.3817 28.7595 39.7319 28.8491 39.0794 28.8436C37.6112 28.8436 36.4208 28.6219 35.5083 28.1786C34.5958 27.7353 33.888 27.1198 33.385 26.3323C32.8834 25.5469 32.549 24.6218 32.3818 23.5571C32.2079 22.4112 32.1237 21.2534 32.1299 20.0944V9.89429H37.9206V18.9529C37.9206 19.4856 37.9396 20.0375 37.9777 20.6086C38.0101 21.1499 38.1276 21.6826 38.3259 22.1873C38.5075 22.6546 38.8147 23.0627 39.2134 23.3665C39.6124 23.6713 40.1858 23.8233 40.9335 23.8226C41.6813 23.8219 42.286 23.6889 42.7479 23.4236C43.1958 23.1753 43.5648 22.806 43.8129 22.358C44.0653 21.891 44.2292 21.3813 44.2962 20.8547C44.3748 20.2749 44.4135 19.6904 44.4119 19.1053V9.89691H50.2021C50.198 16.2107 50.1939 22.5244 50.1901 28.8378Z"
+                fill="#00B150"
+              />
+              <path
+                d="M53.4575 9.93347H59.2482V28.8273H53.4575V9.93347Z"
+                fill="#00B150"
+              />
+              <path
+                d="M74.6793 16.2206C74.373 15.8011 73.9687 15.4629 73.5016 15.2357C72.9967 14.9762 72.4367 14.8424 71.869 14.8456C70.4266 14.8456 69.3066 15.2668 68.5089 16.1091C67.7113 16.9514 67.3126 18.0538 67.313 19.4163C67.313 20.7777 67.7116 21.8805 68.5089 22.7245C69.3062 23.5686 70.4263 23.9896 71.869 23.9875C72.5015 23.9875 73.0457 23.8512 73.5016 23.5786C73.9418 23.3194 74.3391 22.9935 74.6793 22.6125L78.4394 26.4768C77.5716 27.3596 76.4932 28.0069 75.306 28.3576C74.1924 28.7024 73.0347 28.8839 71.869 28.8964C70.5052 28.9053 69.1502 28.6789 67.8633 28.2272C66.6596 27.8103 65.5499 27.1604 64.5975 26.3145C63.6697 25.48 62.9262 24.4611 62.4145 23.323C61.8825 22.1581 61.6169 20.8562 61.6176 19.4173C61.6183 17.9784 61.8839 16.6764 62.4145 15.5111C62.9264 14.3731 63.6698 13.3543 64.5975 12.5197C65.55 11.674 66.6597 11.024 67.8633 10.6069C69.1502 10.1555 70.5053 9.92925 71.869 9.93825C73.0348 9.95018 74.1926 10.1319 75.306 10.4776C76.4926 10.827 77.5709 11.4724 78.4394 12.3532L74.6793 16.2206Z"
+                fill="#00B150"
+              />
+              <path
+                d="M80.3789 0.00732422H86.1696V17.624L92.9055 9.92155H100L92.2269 18.6545L99.8717 28.8352H92.5761L86.2455 19.4551H86.1686V28.8342H80.3789V0.00732422Z"
+                fill="#00B150"
+              />
+              <path
+                d="M59.3294 3.90511L53.4915 0.564941V7.24476L59.3294 3.90511Z"
+                fill="#DD2427"
+              />
+              <path
+                d="M32.6059 28.8273C25.1704 28.8629 19.1352 28.81 14.8195 28.8032C13.7288 28.8032 11.5207 28.7686 8.89631 27.8314C7.08459 27.1831 5.52088 26.2375 4.2052 24.9944C2.87132 23.7191 1.81977 22.1783 1.11845 20.4714C0.372818 18.6994 0 16.6762 0 14.4016C0 12.2854 0.379276 10.3412 1.13783 8.56895C1.8515 6.85757 2.9051 5.30884 4.23483 4.01656C5.56455 2.72428 7.14273 1.71533 8.8738 1.05081C10.6926 0.342369 12.6294 -0.0140813 14.5813 0.000425629C16.6129 0.000425629 18.5163 0.357358 20.2913 1.07123C22.0155 1.75162 23.5895 2.76349 24.9243 4.04958C26.252 5.34242 27.3078 6.88773 28.0294 8.59461C28.7869 10.3512 29.1657 12.2886 29.1657 14.4068C29.1673 15.3945 29.0575 16.3791 28.8384 17.3422C28.625 18.2781 28.2952 19.1835 27.8566 20.0373C27.4187 20.8852 26.8451 21.6559 26.1585 22.3187C25.4497 23.0039 24.6275 23.5611 23.7284 23.9655V24.0445L29.4505 24.1121C30.5023 25.684 31.5541 27.2557 32.6059 28.8273ZM6.90551 17.9454C7.32082 18.9776 7.92994 19.9207 8.69995 20.7237C9.45412 21.5065 10.3514 22.1373 11.3432 22.5821C12.3646 23.0306 13.468 23.2622 14.5836 23.2622C15.6992 23.2622 16.8026 23.0306 17.824 22.5821C18.8163 22.1373 19.7141 21.5065 20.4688 20.7237C23.7472 17.3003 23.7546 11.7426 20.4851 8.31028L20.4688 8.293C19.7138 7.51055 18.8161 6.87977 17.824 6.43467C16.8024 5.98686 15.6991 5.75566 14.5836 5.75566C13.4682 5.75566 12.3648 5.98686 11.3432 6.43467C10.3516 6.8798 9.4544 7.51059 8.69995 8.293C6.29339 10.8352 5.58546 14.644 6.90551 17.9454Z"
+                fill="#00B150"
+              />
+            </svg>
+          </a>
+        </h4>
+        <p>Copyright © 2024 Quick Car & Bike Rentals. All rights reserved.</p>
+        <ul class="footer__socials">
+          <li>
+            <a href="https://www.facebook.com/quickrentcars?mibextid=ZbWKwL"
+              ><i class="ri-facebook-fill"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/quick_thailand?igsh=eWtrOWt1cmttdHpi"
+              ><i class="ri-instagram-fill"></i
+            ></a>
+          </li>
+          <a
+            href="mailto:support@quick-rentals.com"
+            onclick="window.open('https://mail.google.com/mail/?view=cm&to=support@quick-rentals.com', '_blank'); return false;"
+          >
+            <i class="ri-google-fill"></i>
+          </a>
+        </ul>
+      </div>
+    </footer>
+
+   <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script src="main.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+  </body>
+</html>
